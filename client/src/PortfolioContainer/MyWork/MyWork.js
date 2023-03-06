@@ -21,7 +21,7 @@ export default function MyWork(props) {
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
-  const options = {
+  const options = {hp
     loop: true,
     margin: 0,
     nav: true,
