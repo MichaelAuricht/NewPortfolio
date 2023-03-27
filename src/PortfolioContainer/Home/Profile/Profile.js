@@ -1,5 +1,4 @@
 import React from "react";
-import Typical from "react-typical";
 import "./Profile.css";
 
 export default function Profile() {
@@ -29,19 +28,6 @@ export default function Profile() {
               {""}
               <h1>
                 {""}
-                <Typical
-                  loop={Infinity}
-                  steps={[
-                    "Full Stack Dev",
-                    1000,
-                    "React Dev",
-                    1000,
-                    "MERN Dev",
-                    1000,
-                    "JS Dev",
-                    1000,
-                  ]}
-                />
               </h1>
               <span className="profile-role-tagline">
                 mikeauricht@gmail.com
