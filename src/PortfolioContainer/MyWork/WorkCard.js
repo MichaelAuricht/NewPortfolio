@@ -1,21 +1,20 @@
 import React from "react";
-import Batman from "../../images/batman.jpg";
+import "./WorkCard.css"
 
-export default function WorkCard() {
+const WorkCard = (props) => {
   return (
-    <div className="work-container">
-      <h1 className="project-heading">Projects</h1>
-      <div className="project-container">
-        <div className="project-card">
-          <img src="" alt=""></img>
-          <h2 className="project-title">Project Title</h2>
+    <div className="project-card">
+          <img src={props.imgsrc} alt="img"></img>
+          <h2 className="project-title">{props.title}</h2>
           <div className="pro-details">
-            <p>This is text</p>
+            <p>{props.text}</p>
             <div className="pro-btns">
+          <a href={props.view}><button class="btn primary-btn">View</button></a>
+          <a href={props.source}><button class="btn highlighted-btn">Source</button></a>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  );
-};
+  )
+}
+
+export default WorkCard

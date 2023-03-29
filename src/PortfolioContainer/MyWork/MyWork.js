@@ -2,8 +2,7 @@ import React from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
-import "./MyWork.css";
-import WorkCard from "./WorkCard";
+import Work from "./Work";
 
 export default function MyWork(props) {
   let fadeInScreenHandler = (screen) => {
@@ -18,7 +17,7 @@ export default function MyWork(props) {
       <div className="my-work-parent">
         <ScreenHeading title={"My Work"} subHeading={"A Few Examples of My Work"} />
       </div>
-        <WorkCard />
+        <Work />
     </div>
   );
 }
