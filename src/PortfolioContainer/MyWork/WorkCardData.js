@@ -7,8 +7,8 @@ const ProjectCardData = [
     imgsrc: Batman,
     title: "MovieBox",
     text: "An app that allows the user to see reviews, trailers, ratings and related media of movies from the past, present and future. This was the first group project in my bootcamp ending in August 2022.",
-    view: "https://michaelauricht.github.io/project-group-1/",
-    source: "https://github.com/MichaelAuricht/project-group-1"
+    view: "https://michaelauricht.github.io/MovieBox/",
+    source: "https://michaelauricht.github.io/MovieBox/"
   },
   {
     imgsrc: QNA,

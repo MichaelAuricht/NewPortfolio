@@ -56,7 +56,7 @@ export default function AboutMe(props) {
           <a href="mailto:mikeauricht@gmail.com">
               <button className="btn primary-btn">Contact Me</button>
             </a>
-            <a href="CV_MichaelAuricht.pdf" download="CV_MichaelAuricht.pdf">
+            <a href="MichaelAuricht_CV.pdf" download="MichaelAuricht_CV.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>
